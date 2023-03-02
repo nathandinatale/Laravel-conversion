@@ -11,8 +11,8 @@ class Passport extends Model
 {
     protected $table = 'passport';
     protected $primaryKey = 'passNumber';
-    protected $timestamps = false;
-    
+    public $timestamps = false;
+
     use HasFactory;
 
     public function passHolder() {
